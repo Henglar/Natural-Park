@@ -4,25 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="./assets/styles.css" />
     <title>Natural Park</title>
   </head>
   <body>
-    <header>
+    <header class="header-styles">
       <!-- image here -->
+      <div class="header-image"></div>
 
       <!-- L A Natural Park text here -->
+      <h1><span>Los Andes</span> Natural Park</h1>
     </header>
 
-    <main>
+    <main class="main-content">
       <!-- menu -->
       <!-- 
-        Species
+        Start
        -->
-      <div></div>
+      <div class="page-menu">
+        <a href="/" class="menu-buttion">Start</a>
+        <a href="/species.html" class="menu-buttion button-active">Species</a>
+        <a href="/bookings.html" class="menu-buttion">Bookings</a>
+        <a href="/gallery.html" class="menu-buttion">Gallery</a>
+      </div>
 
       <!-- content -->
-      <div></div>
+      <div class="side-content species-content">
+        <div class="species-inhabs">
+          <h1>Park Species</h1>
+
+          <hr />
+
+          <h2 class="mt-20">These are some of the park's inhabitants:</h2>
+
+          <!-- inhabitants -->
+          <div class="mt-20 inhab-info">
+            <h2 class="inhab-section-title">Otter</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni
+              quisquam officiis repellat eum fuga delectus dignissimos vero
+              sapiente corrupti quod quas voluptas est, distinctio perferendis
+              dolor vitae veniam maiores iure.
+            </p>
+          </div>
+
+          <div class="mt-20 inhab-info">
+            <h2 class="inhab-section-title">Griffin Vulture</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni
+              quisquam officiis repellat eum fuga delectus dignissimos vero
+              sapiente corrupti quod quas voluptas est, distinctio perferendis
+              dolor vitae veniam maiores iure.
+            </p>
+          </div>
+
+          <div class="mt-20 inhab-info">
+            <h2 class="inhab-section-title">Genet</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni
+              quisquam officiis repellat eum fuga delectus dignissimos vero
+              sapiente corrupti quod quas voluptas est, distinctio perferendis
+              dolor vitae veniam maiores iure.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- image here -->
+        <div class="species-img">
+          <img src="https://unsplash.com/photos/-2NXf31qalc/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjgzNTQzODg2&force=true&w=640" alt="image of grasscutter" />
+        </div>
+      </div>
     </main>
   </body>
 </html>

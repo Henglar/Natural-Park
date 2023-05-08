@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+}
+
+.header-styles {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-styles h1 {
+  margin-top: 10px;
+  color: green;
+}
+
+.header-styles span {
+  color: orange!;
+}
+
+.header-image {
+  background-image: url("./images/landscape.jpg");
+  height: 200px;
+  width: 95%;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
+}
+
+.main-content {
+  display: flex;
+  margin: 20px;
+}
+
+.page-menu {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.menu-buttion {
+  text-decoration: none;
+  padding: 10px;
+  background: rgb(0, 255, 19);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 255, 19, 0.9402135854341737) 0%,
+    rgba(37, 199, 55, 0.8421743697478992) 28%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: gray;
+  font-weight: bold;
+}
+
+.button-active {
+  background: rgb(248, 177, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(248, 177, 0, 1) 0%,
+    rgba(244, 155, 25, 0) 50%,
+    rgba(224, 224, 224, 0.21752450980392157) 100%
+  );
+}
+
+.side-content {
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 80%;
+  margin-left: 20px;
+
+  background: rgb(225, 225, 225);
+  background: linear-gradient(
+    0deg,
+    rgba(225, 225, 225, 0.2147233893557423) 0%,
+    rgba(255, 255, 255, 0) 48%,
+    rgba(224, 224, 224, 0.21752450980392157) 100%
+  );
+}
+
+.side-content > div {
+  margin: 20px 0 0 0;
+  font-size: 18px;
+}
+
+.side-content h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: green;
+}
+
+.species-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.species-inhabs {
+  width: 65%;
+  padding-right: 10px;
+}
+
+.species-inhabs > h2 {
+  font-size: 18px;
+}
+
+
+.species-img {
+  width: 35%;
+  padding-top: 70px;
+  margin-left: 100px;
+
+}
+.species-img img {
+  width: 100%;
+}
+
+.inhab-section-title {
+  color: orange;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.inhab-info > p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+/*========= Shared styles=========== */
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+/* ================================== */
