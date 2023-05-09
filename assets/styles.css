@@ -17,7 +17,7 @@
 }
 
 .header-styles span {
-  color: orange!;
+  color: orange;
 }
 
 .header-image {
@@ -46,17 +46,17 @@
 .menu-buttion {
   text-decoration: none;
   padding: 10px;
-  background: rgb(0, 255, 19);
+  background: rgb(0, 161, 11);
   background: linear-gradient(
     0deg,
-    rgba(0, 255, 19, 0.9402135854341737) 0%,
+    rgba(0, 143, 10, 0.94) 0%,
     rgba(37, 199, 55, 0.8421743697478992) 28%,
-    rgba(255, 255, 255, 1) 100%
+    rgb(241, 241, 241) 100%
   );
   margin: 5px;
   border-radius: 5px;
   text-align: center;
-  color: gray;
+  color: rgb(71, 71, 71);
   font-weight: bold;
 }
 
@@ -64,8 +64,8 @@
   background: rgb(248, 177, 0);
   background: linear-gradient(
     0deg,
-    rgba(248, 177, 0, 1) 0%,
-    rgba(244, 155, 25, 0) 50%,
+    rgb(211, 152, 2) 0%,
+    rgba(221, 138, 15, 0.386) 50%,
     rgba(224, 224, 224, 0.21752450980392157) 100%
   );
 }
@@ -86,7 +86,7 @@
   );
 }
 
-.side-content > div {
+.side-content > article {
   margin: 20px 0 0 0;
   font-size: 18px;
 }
@@ -145,6 +145,47 @@
   font-weight: bold;
 }
 
+
+.booking-table-container h3 {
+color: orange;
+}
+
+
+.booking-table {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.table-title {
+  color: green;
+}
+
+.table-1, .table-2 {
+  background-color: rgb(233, 197, 132);
+  padding: 10px;
+  width: 60vw;
+  text-align: center;
+  color: black;
+}
+
+
+
+.tb-header{
+  background-color: rgb(152, 210, 152);
+  padding: 5px 10px;
+  width: 25%;
+  font-size: 15px;
+}
+
+
+.cell-style {
+  background-color: white !important; 
+  text-align: center;
+  }
+
 /* ================= End ================= */
 
 
@@ -189,6 +230,42 @@
 
 .mt-20 {
   margin-top: 20px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.py-20 {
+  padding: 20px 0px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+flex-direction: row;
+}
+
+.flex-wrap {
+flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 /* ================================== */
