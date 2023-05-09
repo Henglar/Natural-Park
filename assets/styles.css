@@ -166,7 +166,7 @@ color: orange;
 .table-1, .table-2 {
   background-color: rgb(233, 197, 132);
   padding: 10px;
-  width: 60vw;
+  /* width: 50vw; */
   text-align: center;
   color: black;
 }
